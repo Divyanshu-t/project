@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav-part-one{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    /* gap: 5px; */
+}
+.nav-part-one h3{
+    font-size: 13px;
+    border: 1.5px solid black;
+    padding: 3px 5px;
+    border-radius: 50px
+}
+.nav-part-one i{
+    border: 1.5px solid black;
+    padding: 3px 5px;
+    border-radius: 50px
+}
+.nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.nav button{
+    padding: 5px 7px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+}
+#nav-btn2{
+    background-color: brown;
+    color: white;
+    border: none !important;
+}
+.main>h1{
+    text-transform: capitalize;
+    font-size: 150px; 
+    /* font-size: 70px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+/* 
+    mostley use - unsplash for images thrn kisi bhi image per click karke uske ander jana hai ( right side me download ak optiopn dikh raha hoga )  then vaha per jaker -  copy image address karna hai 
+     */
+/* 
+    background size cover hum use karte hai for set images on my background but  
+    object-fit: cover; use karte hai - img tag k sath object-fit: cover; jaise hi opject posation top  bhi hota hai 
+     */
+
+/* 
+    hum kootch bhi center  karna chata hei to use karehe in 3 properties ka - 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+     */
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    bottom: 7%;
+    right: 4%;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 30px;
+}
+.arrow>i{
+    position: absolute;
+    font-size: 50px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
